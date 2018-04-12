@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
     //2.design fragments
     //3.delete textview in main activity and it's layout and replace
     //4.write code below
+
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         //code to change fragments
         val fragmentManager = supportFragmentManager
